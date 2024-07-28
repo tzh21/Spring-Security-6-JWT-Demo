@@ -1,6 +1,5 @@
-package org.example.springsecuritykt.config
+package org.example.springsecuritykt.security
 
-import org.example.springsecuritykt.user.UserRepository
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.security.authentication.AuthenticationManager

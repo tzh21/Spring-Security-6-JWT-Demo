@@ -1,4 +1,4 @@
-package org.example.springsecuritykt.config
+package org.example.springsecuritykt.security
 
 import jakarta.servlet.FilterChain
 import jakarta.servlet.http.HttpServletRequest

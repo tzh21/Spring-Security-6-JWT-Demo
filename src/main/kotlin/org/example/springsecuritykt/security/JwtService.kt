@@ -1,4 +1,4 @@
-package org.example.springsecuritykt.config
+package org.example.springsecuritykt.security
 
 import io.jsonwebtoken.Claims
 import io.jsonwebtoken.Jwts

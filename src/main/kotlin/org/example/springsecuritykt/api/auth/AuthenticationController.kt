@@ -1,9 +1,9 @@
 package org.example.springsecuritykt.api.auth
 
-import org.example.springsecuritykt.config.JwtService
-import org.example.springsecuritykt.user.Role
-import org.example.springsecuritykt.user.User
-import org.example.springsecuritykt.user.UserRepository
+import org.example.springsecuritykt.security.JwtService
+import org.example.springsecuritykt.security.Role
+import org.example.springsecuritykt.security.User
+import org.example.springsecuritykt.security.UserRepository
 import org.springframework.http.ResponseEntity
 import org.springframework.security.authentication.AuthenticationManager
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken

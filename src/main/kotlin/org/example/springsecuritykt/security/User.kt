@@ -1,4 +1,4 @@
-package org.example.springsecuritykt.user
+package org.example.springsecuritykt.security
 
 import jakarta.persistence.*
 import org.springframework.data.jpa.repository.JpaRepository
