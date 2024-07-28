@@ -1,7 +1,6 @@
 package org.example.springsecuritykt.config
 
 import org.springframework.context.annotation.Bean
-import org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider
 import org.springframework.context.annotation.Configuration
 import org.springframework.security.authentication.AuthenticationProvider
 import org.springframework.security.config.annotation.web.builders.HttpSecurity
@@ -32,7 +31,7 @@ class SecurityConfig(
             }
             .authenticationProvider(authenticationProvider)
 //            Before using the username password filter, we should use jwt filter first
-            .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter::class.java);
+            .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter::class.java)
         return httpSecurity.build()
     }
 

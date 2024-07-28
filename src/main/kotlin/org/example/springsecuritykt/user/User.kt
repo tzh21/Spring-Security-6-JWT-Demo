@@ -1,10 +1,6 @@
 package org.example.springsecuritykt.user
 
 import jakarta.persistence.*
-import lombok.AllArgsConstructor
-import lombok.Builder
-import lombok.Data
-import lombok.NoArgsConstructor
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.security.core.GrantedAuthority
 import org.springframework.security.core.authority.SimpleGrantedAuthority
